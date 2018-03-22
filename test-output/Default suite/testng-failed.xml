@@ -3,11 +3,12 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.Chiselon.ColourClassifieds.UItest.Colourclassifieds_test">
+      <class name="com.Chiselon.ColourClassifieds.UItest.TC4_TopRated">
         <methods>
-          <include name="test"/>
+          <include name="bftest"/>
+          <include name="TC4_TopRatedd"/>
         </methods>
-      </class> <!-- com.Chiselon.ColourClassifieds.UItest.Colourclassifieds_test -->
+      </class> <!-- com.Chiselon.ColourClassifieds.UItest.TC4_TopRated -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

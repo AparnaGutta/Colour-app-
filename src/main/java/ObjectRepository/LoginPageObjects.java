@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class LoginPageObjects
 {
-	WebDriver driver;
+	public WebDriver driver;
 
 	By username=By.id("username");
 	By password=By.name("password");

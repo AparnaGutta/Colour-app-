@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Chiselon.ColourClassifieds.UItest.TC2_postad">
+        <methods>
+          <include name="bftest"/>
+          <include name="TC2_postadd"/>
+        </methods>
+      </class> <!-- com.Chiselon.ColourClassifieds.UItest.TC2_postad -->
+      <class name="com.Chiselon.ColourClassifieds.UItest.TC3_Ratead">
+        <methods>
+          <include name="TC3_Rateadd"/>
+          <include name="afttest"/>
+        </methods>
+      </class> <!-- com.Chiselon.ColourClassifieds.UItest.TC3_Ratead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

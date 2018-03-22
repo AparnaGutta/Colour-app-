@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7221" started-at="2018-02-20T05:06:58Z" finished-at="2018-02-20T05:07:05Z">
+  <suite name="Default suite" duration-ms="10163" started-at="2018-03-17T06:50:10Z" finished-at="2018-03-17T06:50:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7221" started-at="2018-02-20T05:06:58Z" finished-at="2018-02-20T05:07:05Z">
-      <class name="com.Chiselon.ColourClassifieds.UItest.Colourclassifieds_test">
-        <test-method status="PASS" signature="test()[pri:0, instance:com.Chiselon.ColourClassifieds.UItest.Colourclassifieds_test@100955a]" name="test" duration-ms="7196" started-at="2018-02-20T10:36:58Z" finished-at="2018-02-20T10:37:05Z">
+    <test name="Default test" duration-ms="10163" started-at="2018-03-17T06:50:10Z" finished-at="2018-03-17T06:50:20Z">
+      <class name="com.Chiselon.ColourClassifieds.UItest.TC4_TopRated">
+        <test-method status="PASS" signature="bftest()[pri:0, instance:com.Chiselon.ColourClassifieds.UItest.TC4_TopRated@1b7a79b]" name="bftest" is-config="true" duration-ms="8282" started-at="2018-03-17T12:20:10Z" finished-at="2018-03-17T12:20:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- com.Chiselon.ColourClassifieds.UItest.Colourclassifieds_test -->
+        </test-method> <!-- bftest -->
+        <test-method status="PASS" signature="TC4_TopRatedd()[pri:0, instance:com.Chiselon.ColourClassifieds.UItest.TC4_TopRated@1b7a79b]" name="TC4_TopRatedd" duration-ms="1764" started-at="2018-03-17T12:20:18Z" finished-at="2018-03-17T12:20:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4_TopRatedd -->
+      </class> <!-- com.Chiselon.ColourClassifieds.UItest.TC4_TopRated -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
